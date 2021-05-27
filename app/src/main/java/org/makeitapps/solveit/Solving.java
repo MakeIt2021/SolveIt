@@ -17,6 +17,7 @@ import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.text.Editable;
 import android.text.method.KeyListener;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -82,7 +83,6 @@ public class Solving<userReturned> extends AppCompatActivity {
     int subStatsCounter = 0;
     int multStatsCounter = 0;
     int devStatsCounter = 0;
-    boolean wasZen = false;
 
     //Для генерации примеров в соответствии с настройками
     int min;
@@ -206,8 +206,7 @@ public class Solving<userReturned> extends AppCompatActivity {
             countDownTimerAfterPause.onFinish();
 
 
-        if (!zenMode)
-            countDownTimer.start();
+        countDownTimer.start();
 
         afterPause = false;
         createFormerEquation();
@@ -285,8 +284,7 @@ public class Solving<userReturned> extends AppCompatActivity {
         if (afterPause)
             countDownTimerAfterPause.onFinish();
 
-        if (!zenMode)
-            countDownTimer.start();
+        countDownTimer.start();
 
 
         afterPause = false;
@@ -363,8 +361,7 @@ public class Solving<userReturned> extends AppCompatActivity {
         if (afterPause)
             countDownTimerAfterPause.onFinish();
 
-        if (!zenMode)
-            countDownTimer.start();
+        countDownTimer.start();
 
         afterPause = false;
         createFormerEquation();
@@ -900,8 +897,6 @@ public class Solving<userReturned> extends AppCompatActivity {
         intentStats.putExtra("multCounterTransp", multStatsCounter);
         intentStats.putExtra("devCounterTransp", devStatsCounter);
 
-        intentStats.putExtra("zen", wasZen);
-
 
         startActivity(intentStats);
         finish();
@@ -909,7 +904,7 @@ public class Solving<userReturned> extends AppCompatActivity {
 
     void pause() {
         if (afterPause)
-            countDownTimerAfterPause.onFinish();
+            countDownTimerAfterPause.cancel();
         if (couldBePaused % 2 == 0) {
             countDownTimer.cancel();
             couldBePaused++;
@@ -940,46 +935,25 @@ public class Solving<userReturned> extends AppCompatActivity {
             zenMode();
             sound();
         } else {
-            try {
-                countDownTimerAfterPause = new CountDownTimer(Integer.parseInt(String.valueOf(timer.getText())) * 1000, 1000)  {
-                    @Override
-                    public void onTick(long millisUntilFinished) {
-                        time = (int) (millisUntilFinished / 1000);
-                        timer.setText(String.valueOf(time));
-                    }
+            countDownTimerAfterPause = new CountDownTimer(time * 1000, 1000)  {
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    time = (int) (millisUntilFinished / 1000);
+                    timer.setText(String.valueOf(time));
+                    timer2.setText(String.valueOf(time));
+                }
 
-                    @Override
-                    public void onFinish() {
-                        this.cancel();
-                        if (!tap && Integer.parseInt(String.valueOf(timer.getText())) == 0)
-                            incorrect();
-                        else
-                            counter++;
-                    }
-                };
-                if(!zenMode)
-                    countDownTimerAfterPause.start();
-            } catch (NumberFormatException e) {
-                countDownTimerAfterPause = new CountDownTimer(time * 1000, 1000)  {
-                    @Override
-                    public void onTick(long millisUntilFinished) {
-                        time = (int) (millisUntilFinished / 1000);
-                        timer.setText(String.valueOf(time));
-                    }
-
-                    @Override
-                    public void onFinish() {
-                        this.cancel();
-                        if (!zenMode) {
-                            if (!tap && Integer.parseInt(String.valueOf(timer.getText())) == 0)
-                                incorrect();
-                            else
-                                counter++;
-                        }
-                    }
-                };
-                countDownTimerAfterPause.start();
-            }
+                @Override
+                public void onFinish() {
+                    this.cancel();
+                    if (!tap && time == 0)
+                        incorrect();
+                    else
+                        counter++;
+                }
+            };
+            countDownTimer.cancel();
+            countDownTimerAfterPause.start();
 
             afterPause = true;
 
@@ -1018,8 +992,6 @@ public class Solving<userReturned> extends AppCompatActivity {
             zen();
             createFormerEquation();
 
-            if(zenMode)
-                countDownTimerAfterPause.onFinish();
         }
     }
 
@@ -1257,7 +1229,8 @@ public class Solving<userReturned> extends AppCompatActivity {
                     timer2.setVisibility(View.INVISIBLE);
                 }
                 else {
-                    timer2.setText(String.valueOf(time));
+                    if (!afterPause)
+                        timer2.setText(String.valueOf(time));
                     timer.setVisibility(View.INVISIBLE);
                 }
             }
