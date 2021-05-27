@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailed"
+    android:background="#161616"
+    android:id="@+id/everything">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:stretchColumns="0, 1, 2, 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/sum"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/sub"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/mult"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/dev"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/seconds"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sumSec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="sumSec"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/subSec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="subSec"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/multSec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="multSec"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/devSec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="devSec"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF">
+
+            <TextView
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/correct"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sumCorrect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="sumCorrect"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/subCorrect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="subCorrect"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/multCorrect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="multCorrect"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/devCorrect"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="devCorrect"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/perCorrect"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sumPer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="sumPer"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/subPer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="subPer"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/multPer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="multPer"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/devPer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="devPer"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="@string/total"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sumTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="sumTxt"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/subTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="subTxt"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/multTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="multTxt"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/devTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="devTxt"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

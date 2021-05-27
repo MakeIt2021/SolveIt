@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--    MainActivityStrings-->
+    <string name="startBtn">начать</string>
+    <string name="settingsBtn">настройки</string>
+    <string name="success">Настройки применены</string>
+    <!--    //MainActivityStrings-->
+
+    <!--    SettingsActivityStrings-->
+    <string name="operations">операции</string>
+    <string name="sum">сложение</string>
+    <string name="sub">вычитание</string>
+    <string name="mult">умножение</string>
+    <string name="dev">деление</string>
+    <string name="range">диапазон цифр</string>
+    <string name="from">от:</string>
+    <string name="to">до:</string>
+    <string name="saveBtn">сохранить</string>
+    <string name="other">другое</string>
+    <string name="secForEquation">секунд на пример</string>
+    <string name="number">количество примеров</string>
+    <string name="minNull">Поле "Минимум" не может быть пустым!</string>
+    <string name="maxNull">Поле "Максимум" не может быть пустым!</string>
+    <string name="minMaxErr">Максимум должен быть больше минимума!</string>
+    <string name="secNull">Поле "Секунд" не может быть пустым!</string>
+    <string name="secErr">Секунд не может быть 0!</string>
+    <string name="amountNull">Поле "Кол-во примеров" не может быть пустым!</string>
+    <string name="amountErr">Кол-ва примеров не может быть 0</string>
+    <string name="ticksErr">Стоит отметить хотя бы одну галочку!</string>
+    <!--    //SettingsActivityStrings-->
+
+    <!--    StatsActivityStrings-->
+    <string name="general">общая информация</string>
+    <string name="generalTotal">всего правильно</string>
+    <string name="generalSeconds">секунд потрачено</string>
+    <string name="generalPercent">всего процентов правильно</string>
+    <string name="detail">показать детально</string>
+    <string name="seconds">секунд</string>
+    <string name="correct">правильно</string>
+    <string name="perCorrect">процент \n правильности</string>
+    <string name="total">всего</string>
+    <string name="sorry">Sorry, something went wrong. Dev is already fixing this problem.</string>
+    <!--    //StatsActivityStrings-->
+
+    <!--    ThanksActivityStrings-->
+    <string name="article">Cпасибо:</string>
+    <string name="people1">Маме, папе и Софие, что тестировали моё приложение, слушали, как я расправляюсь с багами и как именно я реализовал постановку приложения на паузу,</string>
+    <string name="people2">Елене Владимировне, за Ваши ответы на мою кучу вопросов</string>
+    <string name="people3">Евгение Александровне, за эту идею, за то, что нашли время и оставили отзыв об этом приложении.</string>
+    <string name="people4">Charnog, спасибо за тот самый "Калькулятор Булата" на JavaScript, который ты сделал тогда, именно поэтому я теперь сделал это приложение.</string>
+    <!--    //ThanksActivityStrings-->
+
+    <!--    SolvingActivity-->
+    <string name="notrecognised">К сожалению, ответ не был распознан...</string>
+    <!--    //SolvingActivity-->
+
+    <!--        StatsActivity-->
+    <string name="wasZenAndNormalMode">Кол-во секунд не будет посчитано, т.к. вы использовали ZEN Mode.</string>
+    <!--        //StatsActivity-->
+</resources>

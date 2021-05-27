@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name" translatable="false">SolveIt</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+
+        <!--    myStrings-->
+        <!--    MainActivityStrings-->
+        <string name="startBtn">begin</string>
+        <string name="settingsBtn">settings</string>
+        <string name="success">Settings were applied</string>
+        <!--    //MainActivityStrings-->
+
+        <!--    SettingsActivityStrings-->
+        <string name="operations">operations</string>
+        <string name="sum">addition</string>
+        <string name="sub">subtraction</string>
+        <string name="mult">multiplication</string>
+        <string name="dev">division</string>
+        <string name="range">range</string>
+        <string name="from">from:</string>
+        <string name="to">to:</string>
+        <string name="saveBtn">save</string>
+        <string name="other">other</string>
+        <string name="secForEquation">seconds for equation</string>
+        <string name="number">amount of equations</string>
+        <string name="minNull">Field "Min" cannot be empty!</string>
+        <string name="maxNull">Field "Max" cannot be empty!</string>
+        <string name="minMaxErr">Max is worth being more than min!</string>
+        <string name="secNull">Field "Seconds" cannot be empty!</string>
+        <string name="secErr">Amount of seconds cannot be 0!</string>
+        <string name="amountNull">Field "Amount of equations" cannot be empty!</string>
+        <string name="amountErr">Amount of equations cannot be 0!</string>
+        <string name="ticksErr">It is worth checking at least one checkbox!</string>
+        <!--    //SettingsActivityStrings-->
+
+        <!--    StatsActivityStrings-->
+        <string name="general">general information</string>
+        <string name="generalTotal">total correct</string>
+        <string name="generalSeconds">seconds spent</string>
+        <string name="generalPercent">total percentage of correctness</string>
+        <string name="detail">detailed statistics</string>
+        <string name="seconds">seconds</string>
+        <string name="correct">correct</string>
+        <string name="perCorrect">percentage \n of correct</string>
+        <string name="total">total</string>
+        <string name="sorry">Sorry, something went wrong. Dev is already fixing this problem.</string>
+        <!--    //StatsActivityStrings-->
+
+        <!--    ThanksActivityStrings-->
+        <string name="article">Cпасибо:</string>
+        <string name="people1">Маме, папе и Софие, что тестировали моё приложение, слушали, как я расправляюсь с багами и как именно я реализовал постановку приложения на паузу,</string>
+        <string name="people2">Елене Владимировне, за Ваши ответы на мою кучу вопросов</string>
+        <string name="people3">Евгение Александровне, за эту идею, за то, что нашли время и оставили отзыв об этом приложении.</string>
+        <string name="people4">Charnog, спасибо за тот самый "Калькулятор Булата" на JavaScript, который ты сделал тогда, именно поэтому я теперь сделал это приложение.</string>
+        <!--    //ThanksActivityStrings-->
+
+        <!--    SolvingActivity-->
+        <string name="notrecognised">Unfortunately, the answer was not recognized ...</string>
+        <!--    //SolvingActivity-->
+
+        <!--        StatsActivity-->
+        <string name="wasZenAndNormalMode">The number of seconds will not be counted because you have used ZEN Mode.</string>
+        <!--        //StatsActivity-->
+<!--    //myStrings-->
+</resources>

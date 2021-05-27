@@ -1,0 +1,59 @@
+<resources>
+    <!--    MainActivityStrings-->
+    <string name="startBtn">beginnen</string>
+    <string name="settingsBtn">einstellungen</string>
+    <string name="success">Einstellungen wurden angewendet</string>
+    <!--    //MainActivityStrings-->
+
+    <!--    SettingsActivityStrings-->
+    <string name="operations">Gleichungen</string>
+    <string name="sum">Addition</string>
+    <string name="sub">Subtraktion</string>
+    <string name="mult">Multiplikation</string>
+    <string name="dev">Division</string>
+    <string name="range">Reichweite</string>
+    <string name="from">von:</string>
+    <string name="to">bis:</string>
+    <string name="saveBtn">bewerben</string>
+    <string name="other">andere</string>
+    <string name="secForEquation">Sekunden zur Gleichung</string>
+    <string name="number">Anzahl der Gleichungen</string>
+    <string name="minNull">Das Feld "Min" darf nicht leer sein!</string>
+    <string name="maxNull">Das Feld "Max" darf nicht leer sein!</string>
+    <string name="minMaxErr">Max ist es wert, mehr als min zu sein!</string>
+    <string name="secNull">Das Feld "Sekunden" darf nicht leer sein!</string>
+    <string name="secErr">Die Anzahl der Sekunden kann nicht 0 sein!</string>
+    <string name="amountNull">Das Feld "Anzahl der Gleichungen" darf nicht leer sein!</string>
+    <string name="amountErr">Die Anzahl der Gleichungen kann nicht 0 sein!</string>
+    <string name="ticksErr">Es lohnt sich, mindestens ein Kontrollkästchen zu aktivieren!</string>
+    <!--    //SettingsActivityStrings-->
+
+    <!--    StatsActivityStrings-->
+    <string name="general">allgemeine Informationen</string>
+    <string name="generalTotal">insgesamt korrekte Gleichungen</string>
+    <string name="generalSeconds">Sekunden übrig</string>
+    <string name="generalPercent">Gesamtprozentsatz der Korrektheit:</string>
+    <string name="detail">detaillierte Statistiken</string>
+    <string name="seconds">Sekunden</string>
+    <string name="correct">Richtig</string>
+    <string name="perCorrect">Prozentsatz der \n Korrektheit</string>
+    <string name="total">Gesamt</string>
+    <string name="sorry">Sorry, something went wrong. Dev is already fixing this problem.</string>
+    <!--    //StatsActivityStrings-->
+
+    <!--    ThanksActivityStrings-->
+    <string name="article">Cпасибо:</string>
+    <string name="people1">Маме, папе и Софие, что тестировали моё приложение, слушали, как я расправляюсь с багами и как именно я реализовал постановку приложения на паузу,</string>
+    <string name="people2">Елене Владимировне, за Ваши ответы на мою кучу вопросов</string>
+    <string name="people3">Евгение Александровне, за эту идею, за то, что нашли время и оставили отзыв об этом приложении.</string>
+    <string name="people4">Charnog, спасибо за тот самый "Калькулятор Булата" на JavaScript, который ты сделал тогда, именно поэтому я теперь сделал это приложение.</string>
+    <!--    //ThanksActivityStrings-->
+
+    <!--    SolvingActivity-->
+    <string name="notrecognised">Leider wurde die Antwort nicht erkannt ...</string>
+    <!--    //SolvingActivity-->
+
+    <!--        StatsActivity-->
+    <string name="wasZenAndNormalMode">Die Anzahl der Sekunden wird nicht gezählt, da Sie den ZEN-Modus verwendet haben.</string>
+    <!--        //StatsActivity-->
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/done_white_.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="17dp"
+    android:height="13dp"
+    android:viewportWidth="17"
+    android:viewportHeight="13">
+
+    <path
+        android:fillColor="#2b2b2b"
+        android:pathData="M5.87501 10.175L2.20001 6.49999L0.975006 7.72499L5.87501 12.625L16.375 2.12499L15.15 0.899994L5.87501 10.175Z" />
+</vector>
