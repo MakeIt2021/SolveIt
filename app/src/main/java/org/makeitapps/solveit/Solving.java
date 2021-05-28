@@ -1,47 +1,29 @@
 package org.makeitapps.solveit;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Vibrator;
-import android.speech.RecognitionListener;
-import android.speech.RecognizerIntent;
-import android.speech.SpeechRecognizer;
-import android.text.Editable;
-import android.text.method.KeyListener;
-import android.util.Log;
 import android.view.KeyEvent;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
-import com.google.android.material.snackbar.Snackbar;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
@@ -1046,9 +1028,9 @@ public class Solving<userReturned> extends AppCompatActivity {
     void zenMode() {
         zenModeBtn.setClickable(true);
         if (zenMode) {
-            zenModeBtn.setImageResource(R.drawable.zen);
+            zenModeBtn.setImageResource(R.drawable.variants);
         } else {
-            zenModeBtn.setImageResource(R.drawable.zen_inactive);
+            zenModeBtn.setImageResource(R.drawable.keyboard);
         }
         zenModeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1071,7 +1053,7 @@ public class Solving<userReturned> extends AppCompatActivity {
                     });
                 } else {
                     zenMode = true;
-                    zenModeBtn.setImageResource(R.drawable.zen);
+                    zenModeBtn.setImageResource(R.drawable.variants);
                     zenModeBtn.setImageResource(R.drawable.restart);
                     try {
                         PrintWriter pw = new PrintWriter(zenFile);
