@@ -527,7 +527,7 @@ public class Solving<userReturned> extends AppCompatActivity {
                     createSub();
                 }
                 if (operation == 2) {
-                    createDev();
+                    createMult();
                 }
             }
             //Нет суммы и разности
@@ -905,6 +905,7 @@ public class Solving<userReturned> extends AppCompatActivity {
             btn2.setClickable(false);
             btn3.setClickable(false);
             btn4.setClickable(false);
+            edt.setVisibility(View.INVISIBLE);
 
             zenModeBtn.setVisibility(View.VISIBLE);
             closeBtn.setVisibility(View.VISIBLE);
@@ -969,6 +970,8 @@ public class Solving<userReturned> extends AppCompatActivity {
 
             soundBtn.setClickable(false);
             soundBtn.setVisibility(View.INVISIBLE);
+
+            edt.setVisibility(View.VISIBLE);
 
             userReturned = true;
             zen();
