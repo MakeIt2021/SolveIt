@@ -953,15 +953,6 @@ public class Solving<userReturned> extends AppCompatActivity {
             timer.setTextColor(Color.parseColor("#ffffff"));
             timer2.setTextColor(Color.parseColor("#ffffff"));
 
-
-            if (!zenMode) {
-                btn1.setClickable(true);
-                btn2.setClickable(true);
-                btn3.setClickable(true);
-                btn4.setClickable(true);
-            }
-
-
             closeBtn.setClickable(false);
             closeBtn.setVisibility(View.INVISIBLE);
 
@@ -972,6 +963,15 @@ public class Solving<userReturned> extends AppCompatActivity {
             soundBtn.setVisibility(View.INVISIBLE);
 
             edt.setVisibility(View.VISIBLE);
+
+            if (!zenMode) {
+                btn1.setClickable(true);
+                btn2.setClickable(true);
+                btn3.setClickable(true);
+                btn4.setClickable(true);
+
+                edt.setVisibility(View.INVISIBLE);
+            }
 
             userReturned = true;
             zen();
