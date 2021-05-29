@@ -1,3 +1,3 @@
 # SolveIt - Count as you want
-### What is "beta" branch?
-Here you can find something, which wasn`t published, which is under development 😎
+### What is SolveIt?
+SolveIt is an application which helps you to improve your verbal counting skills. 
