@@ -1,16 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!--    MainActivityStrings-->
-    <string name="startBtn">начать</string>
-    <string name="settingsBtn">настройки</string>
-    <string name="success">Настройки применены</string>
+    <string name="MainTitle">С чего начнём?</string>
+    <string name="sumDescr">От 7 + 8, до 1548 + 9389</string>
+    <string name="subDescr">От 45 - 9, до 1932 - 439</string>
+    <string name="multDescr">От 2 × 2, до 47 × 32</string>
+    <string name="devDescr">От 56 ÷ 8, до 1128 ÷ 24</string>
     <!--    //MainActivityStrings-->
 
     <!--    SettingsActivityStrings-->
     <string name="operations">операции</string>
-    <string name="sum">сложение</string>
-    <string name="sub">вычитание</string>
-    <string name="mult">умножение</string>
-    <string name="dev">деление</string>
+    <string name="sum">Сумма</string>
+    <string name="sub">Вычитание</string>
+    <string name="mult">Умножение 🔥</string>
+    <string name="dev">Деление</string>
     <string name="range">диапазон цифр</string>
     <string name="from">от:</string>
     <string name="to">до:</string>

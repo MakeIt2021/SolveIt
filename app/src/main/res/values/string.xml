@@ -19,17 +19,19 @@
 
         <!--    myStrings-->
         <!--    MainActivityStrings-->
-        <string name="startBtn">begin</string>
-        <string name="settingsBtn">settings</string>
-        <string name="success">Settings were applied</string>
+        <string name="MainTitle">С чего начнём?</string>
+        <string name="sumDescr">От 7 + 8, до 1548 + 9389</string>
+        <string name="subDescr">От 45 - 9, до 1932 - 439</string>
+        <string name="multDescr">От 2 × 2, до 47 × 32</string>
+        <string name="devDescr">От 56 ÷ 8, до 1128 ÷ 24</string>
         <!--    //MainActivityStrings-->
 
         <!--    SettingsActivityStrings-->
         <string name="operations">operations</string>
-        <string name="sum">addition</string>
-        <string name="sub">subtraction</string>
-        <string name="mult">multiplication</string>
-        <string name="dev">division</string>
+        <string name="sum">Addition</string>
+        <string name="sub">Subtraction</string>
+        <string name="mult">Multiplication 🔥</string>
+        <string name="dev">Division</string>
         <string name="range">range</string>
         <string name="from">from:</string>
         <string name="to">to:</string>

@@ -1,15 +1,17 @@
 <resources>
     <!--    MainActivityStrings-->
-    <string name="startBtn">beginnen</string>
-    <string name="settingsBtn">einstellungen</string>
-    <string name="success">Einstellungen wurden angewendet</string>
+    <string name="MainTitle">С чего начнём?</string>
+    <string name="sumDescr">От 7 + 8, до 1548 + 9389</string>
+    <string name="subDescr">От 45 - 9, до 1932 - 439</string>
+    <string name="multDescr">От 2 × 2, до 47 × 32</string>
+    <string name="devDescr">От 56 ÷ 8, до 1128 ÷ 24</string>
     <!--    //MainActivityStrings-->
 
     <!--    SettingsActivityStrings-->
     <string name="operations">Gleichungen</string>
     <string name="sum">Addition</string>
     <string name="sub">Subtraktion</string>
-    <string name="mult">Multiplikation</string>
+    <string name="mult">Multiplikation 🔥</string>
     <string name="dev">Division</string>
     <string name="range">Reichweite</string>
     <string name="from">von:</string>

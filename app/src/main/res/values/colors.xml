@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="BtnTextView">#C4C4C4</color>
     <color name="status">#2e2e2e</color>
+
+    <color name="greyLight">#F5F5F5</color>
+    <color name="greyDark">#323232</color>
+    <color name="backgroundDark">#151515</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="greyTextDark">#9C9C9C</color>
 </resources>
