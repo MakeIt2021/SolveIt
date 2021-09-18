@@ -19,7 +19,7 @@
 
         <!--    myStrings-->
         <!--    MainActivityStrings-->
-        <string name="MainTitle">С чего начнём?</string>
+        <string name="MainTitle">Над чем поработаем?</string>
         <string name="sumDescr">От 7 + 8, до 1548 + 9389</string>
         <string name="subDescr">От 45 - 9, до 1932 - 439</string>
         <string name="multDescr">От 2 × 2, до 47 × 32</string>

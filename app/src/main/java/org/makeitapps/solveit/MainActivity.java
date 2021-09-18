@@ -11,18 +11,34 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
+    View view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    
+        view = findViewById(R.id.everything);
     }
 
-    void toSum() {
-
+    public void toSum(View view) {
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
+    }
+    public void toSub(View view) {
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
+    }
+    public void toMult(View view) {
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
+    }
+    public void toDev(View view) {
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
     }
 
-    void toCustom() {
-        // TODO: 9/18/2021 Сделать кастомные настройки! 
+    public void toCustom(View view) {
+        // TODO: 9/18/2021 Сделать кастомные настройки!
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
     }
 }
