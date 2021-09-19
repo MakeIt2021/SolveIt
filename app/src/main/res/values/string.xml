@@ -24,9 +24,20 @@
         <string name="subDescr">От 45 - 9, до 1932 - 439</string>
         <string name="multDescr">От 2 × 2, до 47 × 32</string>
         <string name="devDescr">От 56 ÷ 8, до 1128 ÷ 24</string>
+        <string name="custom">😎</string>
         <!--    //MainActivityStrings-->
 
-        <!--    SettingsActivityStrings-->
+        <!--    SumActivityStrings-->
+        <string name="sumTitle">Сумма</string>
+        <string name="book">Учебник 📔</string>
+        <string name="practice">Практика</string>
+        <string name="elementary">Элементарно</string>
+        <string name="profi">Свободно</string>
+        <string name="sumBookDescr">Немного теории, чтобы складывать гигантские числа</string>
+        <!--    //SumActivityStrings-->
+
+
+    <!--    SettingsActivityStrings-->
         <string name="operations">operations</string>
         <string name="sum">Addition</string>
         <string name="sub">Subtraction</string>

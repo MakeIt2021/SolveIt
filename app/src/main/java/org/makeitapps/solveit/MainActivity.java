@@ -1,10 +1,8 @@
 package org.makeitapps.solveit;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,23 +18,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toSum(View view) {
-        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
-        snackbar.show();
+        Intent intentSum = new Intent(this, Sum.class);
+        startActivity(intentSum);
     }
+
     public void toSub(View view) {
         Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
         snackbar.show();
     }
+
     public void toMult(View view) {
         Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
         snackbar.show();
     }
+
     public void toDev(View view) {
         Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
         snackbar.show();
     }
 
     public void toCustom(View view) {
+        // TODO: 9/18/2021 Сделать кастомные настройки!
+        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
+        snackbar.show();
+    }
+
+    public void toSettings(View view) {
         // TODO: 9/18/2021 Сделать кастомные настройки!
         Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
         snackbar.show();
