@@ -9,13 +9,28 @@
     <!--    //MainActivityStrings-->
 
     <!--    SumActivityStrings-->
-    <string name="sumTitle">Сумма</string>
+    <string name="sumTitle">Сложение</string>
     <string name="book">Учебник 📔</string>
     <string name="practice">Практика</string>
     <string name="elementary">Элементарно</string>
     <string name="profi">Свободно</string>
     <string name="sumBookDescr">Немного теории, чтобы складывать гигантские числа</string>
     <!--    //SumActivityStrings-->
+
+    <!--    SubActivityStrings-->
+    <string name="subTitle">Вычитание</string>
+    <string name="subBookDescr">Немного теории, чтобы вычитать одни гигантские числа из других</string>
+    <!--    //SubActivityStrings-->
+
+    <!--    MultActivityStrings-->
+    <string name="multTitle">Умножение</string>
+    <string name="multBookDescr">Немного теории, чтобы перемножать гигантские числа</string>
+    <!--    //MultActivityStrings-->
+
+    <!--    DevActivityStrings-->
+    <string name="devTitle">Деление</string>
+    <string name="devBookDescr">Немного теории, чтобы делить одни числа на другие</string>
+    <!--    //DevActivityStrings-->
 
     <!--    SettingsActivityStrings-->
     <string name="operations">операции</string>

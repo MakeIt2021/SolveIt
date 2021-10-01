@@ -1,22 +1,22 @@
 package org.makeitapps.solveit;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.snackbar.Snackbar;
 
-public class Sum extends AppCompatActivity {
+public class Dev extends AppCompatActivity {
 View view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sum);
+        setContentView(R.layout.activity_dev);
         view = findViewById(R.id.everything);
     }
 
-    public void toSumBook(View view) {
+    public void toDevBook(View view) {
         Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
         snackbar.show();
     }

@@ -18,23 +18,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toSum(View view) {
-        Intent intentSum = new Intent(this, Sum.class);
-        startActivity(intentSum);
+        Intent intent = new Intent(this, Sum.class);
+        startActivity(intent);
     }
 
     public void toSub(View view) {
-        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
-        snackbar.show();
+        Intent intent = new Intent(this, Sub.class);
+        startActivity(intent);
     }
 
     public void toMult(View view) {
-        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
-        snackbar.show();
+        Intent intent = new Intent(this, Mult.class);
+        startActivity(intent);
     }
 
     public void toDev(View view) {
-        Snackbar snackbar = Snackbar.make(view, "Опция будет добавлена скоро", Snackbar.LENGTH_SHORT);
-        snackbar.show();
+        Intent intent = new Intent(this, Dev.class);
+        startActivity(intent);
     }
 
     public void toCustom(View view) {

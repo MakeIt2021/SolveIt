@@ -36,6 +36,21 @@
         <string name="sumBookDescr">Немного теории, чтобы складывать гигантские числа</string>
         <!--    //SumActivityStrings-->
 
+        <!--    SubActivityStrings-->
+        <string name="subTitle">Разность</string>
+        <string name="subBookDescr">Немного теории, чтобы вычитать одни гигантские числа из других</string>
+        <!--    //SubActivityStrings-->
+
+        <!--    MultActivityStrings-->
+        <string name="multTitle">Умножение</string>
+        <string name="multBookDescr">Немного теории, чтобы перемножать гигантские числа</string>
+        <!--    //MultActivityStrings-->
+
+        <!--    DevActivityStrings-->
+        <string name="devTitle">Деление</string>
+        <string name="devBookDescr">Немного теории, чтобы делить одни числа на другие</string>
+        <!--    //DevActivityStrings-->
+
 
     <!--    SettingsActivityStrings-->
         <string name="operations">operations</string>
